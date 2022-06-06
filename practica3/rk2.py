@@ -18,4 +18,4 @@ def integrate(F,alpha,beta,a,b,x0,N):
 
         xn[i+1] = xn[i] + h*((1-alpha)*K1 + alpha*K2)
 
-    return tn,xn
+    return np.array(tn), np.array(xn)
